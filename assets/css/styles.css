@@ -1,0 +1,55 @@
+/* GLOBAL */
+
+body {
+    background-color: #0E0E0E;
+    color: #fff;
+}
+
+hr {
+    display: block;
+    width: 200px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav-item {
+    font-size: 1.2em;
+}
+
+/* MAIN CONTENT */
+
+#mainPhoto {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #0E0E0E;
+}
+
+#mainPhoto {
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a i {
+    display: inline-block;
+    font-size: 200%;
+    color: #ccc;
+    padding: 0 10px;
+}
+
+.icons a i:hover {
+    color: #808080;
+}
