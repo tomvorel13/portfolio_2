@@ -14,13 +14,31 @@ hr {
     margin: 20px 0;
 }
 
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Asap', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Caveat', cursive;
+}
+
 /* NAVBAR */
 .navbar-brand {
-    font-size: 2em;
+    font-size: 2.5em;
+    font-family: 'Caveat', cursive;
 }
 
 .nav-item {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-family: 'Caveat', cursive;
+}
+
+.navbar {
+    background-color: #0E0E0E;
 }
 
 /* MAIN CONTENT */
@@ -31,12 +49,12 @@ hr {
     border-radius: 50%;
 }
 
-.navbar {
-    background-color: #0E0E0E;
-}
-
 #mainPhoto {
     margin-bottom: 20px;
+}
+
+#aboutText {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icons {
@@ -52,4 +70,21 @@ hr {
 
 .icons a i:hover {
     color: #808080;
+}
+
+/* CONTACT */
+#contactHeading {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.contactLine {
+    display: block;
+    margin: 15px 0;
+    font-size: 1.5em;
+    font-family: 'Asap', sans-serif;
+}
+
+.contactLine i {
+    font-size: 1.5em;
 }
