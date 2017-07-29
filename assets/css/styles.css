@@ -73,7 +73,7 @@ h2, h3 {
 }
 
 /* CONTACT */
-#contactHeading {
+.topHeading {
     font-size: 3em;
     margin-bottom: 1em;
 }
@@ -87,4 +87,42 @@ h2, h3 {
 
 .contactLine i {
     font-size: 1.5em;
+}
+
+/* PORTFOLIO */
+.slider-inner {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border: #666 solid 1px;
+}
+
+.slider-inner img {
+    display: none;
+    width: 500px;
+    height: 300px;
+}
+
+.slider-inner img.selected {
+    display: inline-block;
+}
+
+.prev, .next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next {
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
 }
